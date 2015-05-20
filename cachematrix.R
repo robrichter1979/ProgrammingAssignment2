@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The function "cacheSolve" checks first whether the inverse matrix of x was already computed. If it was it spits 
-## out the cached value, otherwise it computes it and sets  
+## out the cached value, otherwise it computes it and caches its computed value. 
 
 cacheSolve <- function(x, ...) {
         
